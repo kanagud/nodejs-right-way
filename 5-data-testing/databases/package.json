@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "test:watch": "mocha --watch --reporter min",
-    "test:debug":"node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts"
+    "test:debug": "node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts"
   },
   "keywords": [],
   "author": "Kanagu Duraiswamy <kanagu.duraiswamy@mambu.com>",
@@ -16,6 +16,7 @@
     "mocha": "2.4.5"
   },
   "dependencies": {
-    "cheerio": "0.22.0"
+    "cheerio": "0.22.0",
+    "node-dir": "^0.1.16"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "name": "6-esclu",
+  "version": "1.0.0",
+  "description": "Elastic search command line utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kanagu Duraiswamy <kanagu.duraiswamy@mambu.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "2.9.0",
+    "request": "2.79.0"
+  }
+}
